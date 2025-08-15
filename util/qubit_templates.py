@@ -59,6 +59,7 @@ def device_FeedLine(pocket = False):
     FL = Device("feedline")
     LP_in = pg.copy(device_LaunchPad(pocket))
     LP_in.move((750, 2025))
+    #LP_in.move((0, 2025))
     LP_out = pg.copy(device_LaunchPad(pocket))
     LP_out.rotate(90).move((1950, 800))
     FL.add_ref(LP_in)

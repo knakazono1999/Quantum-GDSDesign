@@ -19,8 +19,8 @@ Frame:
   layer: 25
   width: 100
   size:
-    height: 4650
-    width: 2250
+    height: 8000
+    width: 3000
 
 DCLine:
   radius: 100
